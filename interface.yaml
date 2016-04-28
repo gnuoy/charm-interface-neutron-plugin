@@ -1,3 +1,9 @@
 name: neutron-plugin
 summary: Interface for intergrating Neutron SDN's with the nova-compute charm
 maintainer: James Page <james.page@ubuntu.com>
+ignore:
+  - 'units_tests'
+  - 'Makefile'
+  - '.testr.conf'
+  - 'test-requirements.txt'
+  - 'tox.ini'
